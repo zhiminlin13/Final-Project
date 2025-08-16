@@ -1,2 +1,2 @@
 def unsafe_code(user_input):
-    eval(user_input)  # BAD: unsafe use of eval
+    eval(user_input)  # This will be flagged by Bandit
